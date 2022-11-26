@@ -82,3 +82,5 @@ if you see the root name change from yours to the AMI name then you are good
 
 
 ## Thank You and see you in the next post ):
+#### Next - ` Configure Promtheus on EC2 Instannce `
+[Prometheus](..//Prometheus_setUp/README.md) 

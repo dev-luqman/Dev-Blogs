@@ -154,3 +154,7 @@ sudo systemctl restart prometheus
 ### 9. Preview Prometheus on the web
 Now that the status is showing running  then we can view in the browser using  the DNS_NAME or public_ip address at port 9090/tagets
 ![Status](images/web_status.png)
+
+
+###  Thank you for checking this out and stay tuned for more.
+#### Next - ` Auto discovery of Ec2 Instance `
