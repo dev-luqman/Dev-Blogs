@@ -17,7 +17,7 @@ The below steps will guide us on how we can create and run prometheus on aws EC2
 
 
 #### 1. Create An Ec2 instance 
-The above mentioned is very important and you can follow link: [Using AWS Console](../CreateAWSInstance/README.md) 
+The above mentioned is very important and you can follow this link: [Using AWS Console](../CreateAWSInstance/README.md) 
 
 
 
@@ -70,15 +70,15 @@ rm -rf prometheus-2.19.0.linux-amd64.tar.gz prometheus-2.19.0.linux-amd64
 
 
 #### 5. Create a prometheus file YAML file to run prometheus to monitor instances/servers
-Prometheus can be used to monitor itself by running the below command inside the created file
+Prometheus can be used to monitor itself by copying the below command inside the created file
 * The command ` vi ` can be used to create and open the file  for editing
 ```
 sudo vi /etc/prometheus/prometheus.yml
 
 ```
 
-* Paste the below code inside the file
-This code will monitor the server/inself under port 9090 at interval of 15s
+* Paste the below code inside the file,
+this code will monitor the server/inself under port 9090 at interval of 15s
 
 ```
 
@@ -93,7 +93,7 @@ scrape_configs:
       - targets: ['localhost:9090']
 
 ```
-Note : exit the editor with command key  - ` esc ` follow by keys - ` shift & : `
+Note : exit the editor with command key  - ` esc ` follow by keys - ` shift :x ` and ` Enter ` command
 
 
 
@@ -169,7 +169,7 @@ sudo systemctl start prometheus
 
 
 ### 9. Preview Prometheus on the web
-Now that the status is showing running  then we can view in the browser using  the DNS_NAME or public_ip address at port 9090/metrix
+Now that the status is showing running  then we can view in the browser using  the DNS_NAME or public_ip address at port 9090/tagets
 
 ![Status](images/prometheus_web_status.png)
 
