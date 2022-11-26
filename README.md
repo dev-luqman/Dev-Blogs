@@ -5,7 +5,6 @@ I am Balogun Lukman, a graduate of Udacity Cloud DevOp engineer and i am here to
 ### `Please stay tune and Enjoy 😜 .`
 
 
-### The following will connect you to already created blogs
-Feel free to browse through and make suggection 
+### Follow the journey below and i appreciate feedback as well
 
 1. Create EC2 Instance [Using AWS Console](blogs/CreateAWSInstance/ec2_instance.md) 
