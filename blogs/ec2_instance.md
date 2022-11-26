@@ -1,5 +1,5 @@
 ## Create Ec2 Instance on Aws Console
-There are multiple way EC2 instance can be created but the console seems like the most convenient way for beginners. There are multiple steps to consider when creating EC2 for prometheus(monitorin server) setup which are will be listed below
+There are multiple way EC2 instance can be created but the console seems like the most convenient way for beginners. There are multiple steps to consider when creating EC2 for prometheus(monitorin server) setup which are listed below
 
 
 ### Pre-Steps
@@ -18,7 +18,7 @@ Select the region you will like to create your instance eg `us-east-1a`
 
 Nagivate to [AWS Console](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#LaunchInstances:)
 
-#### 2. Select Instance AMI (AMAZON MACHINE IMMAGE)
+#### 2. Select Instance AMI (AMAZON MACHINE IMAGE)
 I Suggest Ubuntu image with free tier eligible
 
 ![AMI](image/AMI-image.png)
@@ -26,14 +26,14 @@ I Suggest Ubuntu image with free tier eligible
 
 #### 3. Select Instance Type 
 This section shows the computing, memory, networking and storage of the instance you are creating.
- Note - `t2.micro free tier eligible is recommended`
+Note - `t2.micro free tier eligible is recommended`
 
- ![Instance-Type - Label 1](image/instance_type.png)
+![Instance-Type - Label 1](image/instance_type.png)
 
 
-#### 4. Select key-pair you create ealier `Prometheus.pem`
+#### 4. Select key-pair you create ealier named - `Prometheus.pem`
 This is the key that will be used to ssh to your instance incase needs be.
- Note - `prometheus.pem` you created should be used or create new one on the spot
+Note - `prometheus.pem` you created should be used or create new one on the spot
 
 ![Key-Pair - Label 2](image/instance_type.png)
 
@@ -51,13 +51,13 @@ The above mentioned can be left as default for the monitoring server we are crea
 
 
 #### 7 Preview Summary and Launch Instace
-Go throug the summary and launch if everything is in other.
+Go through the summary and launch if everything seems fine.
 
 ![Summary/Launch](image/instance_summary.png)
 
 
 #### 8 Final Stage - preview Instance and ensure it state shows `Running` stage
-![Running Instance}(image/Running_instance.png)
+![Running Instance](image/Running_instance.png)
 
 #### 9 Extra - SSH into instance
 This step required you to follow the instruction below.
@@ -78,3 +78,7 @@ Type `cd ~/Download` on linus system (mac)
 if you see the root name change from yours to the AMI name then you are good
 
 ![Connect To Instance](image/ssh_3.png)
+
+
+
+## Thank You and see you in the next post ):
