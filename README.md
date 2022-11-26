@@ -1,8 +1,7 @@
 ## Personal Blog Post ` SHEGE SEASON/2022 `
-Welcome to my blog post, here i will be sharing knowledge regarding DevOp and some challenges i face in some critical area.
-
-### `Please stay tune and Enjoy 😜 `
-
+Hey there !
+I am Balogun Lukman, a graduate of Udacity Cloud DevOp engineer and i am here to share some knowledge with you,
+### `Please stay tune and Enjoy 😜 .`
 
 
 ### The following will connect you to already created blogs
