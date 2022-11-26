@@ -9,4 +9,4 @@ Welcome to my blog post, here i will be sharing knowledge regarding DevOp and so
 ### The following will connect you to already created blogs
 Feel free to browse through and make suggection 
 
-1. Create EC2 Instance [Using AWS Console](./CreateAWSInstance/ec2_instance.md) 
+1. Create EC2 Instance [Using AWS Console](blogsCreateAWSInstance/ec2_instance.md) 
