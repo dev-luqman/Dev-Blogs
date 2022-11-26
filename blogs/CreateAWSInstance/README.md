@@ -1,4 +1,4 @@
-## Create Ec2 Instance on Aws Console
+## Create Ec2 Instance Using Aws Console
 There are multiple way EC2 instance can be created but the console seems like the most convenient way for beginners. There are multiple steps to consider when creating EC2 for prometheus(monitorin server) setup which are listed below
 
 

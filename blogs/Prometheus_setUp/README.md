@@ -7,7 +7,7 @@ This section will put us through on how to install and run prometheus on AWS ec2
 
 ### Prerequisite 
 The only prerequisite needed for the job/setup is creating an Ubuntu server under AWS which you can checkout in the link below 
-* Create EC2 Instance [Using AWS Console](../CreateAWSInstance/ec2_instance.md) 
+* Create EC2 Instance [Using AWS Console](../CreateAWSInstance/README.md) 
 
 
 
@@ -17,7 +17,7 @@ The below steps will guide us on how we can create and run prometheus on aws EC2
 
 
 #### 1. Create An Ec2 instance 
-The above mentioned is very important and you can follow link: [Using AWS Console](../CreateAWSInstance/ec2_instance.md) 
+The above mentioned is very important and you can follow link: [Using AWS Console](../CreateAWSInstance/README.md) 
 
 
 
