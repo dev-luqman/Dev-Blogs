@@ -1,30 +1,34 @@
-## Prometheus SetUp on Ubuntu
+## Prometheus SetUp on AWS Ubuntu-ec2 instance
 [Prometheus](https://prometheus.io/) is an open-source tool for monitoring servers and are designed for reliability which can be use for quick diagonose in a server.
 
-This section will put us through on how to install and run prometheus on AWS ec2 instance and further more on how to collect exported data from other aws ec2 instance.
+This section will put us through on how to install and run prometheus on AWS ec2 instance and further more on how to pull an exported data from other aws ec2 instance.
+
 
 
 ### Prerequisite 
 The only prerequisite needed for the job/setup is creating an Ubuntu server under AWS which you can checkout in the link below 
-* Create EC2 Instance [Using AWS Console](../blogs/CreateAWSInstance/ec2_instance.md) 
+* Create EC2 Instance [Using AWS Console](../CreateAWSInstance/ec2_instance.md) 
+
 
 
 ### Steps
 The below steps will guide us on how we can create and run prometheus on aws EC2 ` Ubuntu Server `
 
 
+
 #### 1. Create An Ec2 instance 
-The above mentioned is very important and you can follow link: [Using AWS Console](../blogs/CreateAWSInstance/ec2_instance.md) 
+The above mentioned is very important and you can follow link: [Using AWS Console](../CreateAWSInstance/ec2_instance.md) 
+
 
 
 #### 2. SSH into your ec2 instance
-SSH into your instance from your command promt where your key pair is download which is showned in the ending part of the previous step ` Step 1 `
+SSH into your instance from your command prompt where your key pair is downloaded which is showned in the ending part of the previous step ` Step 1 `
 ```
 ssh -i prometheus.pem ubuntu@ec2-3-17-28.53.us-east-2.compute.amazonaws.com
 
 ```
-Please replace the ` prometheus.pem ` : your key pair downloaded and also change ` ubuntu@ec2-3-17-28.53.us-east-2.compute.amazonaws.com ` to your dnsName
-![Connect To Instance](images/ssh_instance_1.png)
+Please replace the ` prometheus.pem ` with your key pair downloaded and also change ` ubuntu@ec2-3-17-28.53.us-east-2.compute.amazonaws.com ` to your dnsName
+
 
 
 #### 3. Create a new user
@@ -168,3 +172,6 @@ sudo systemctl start prometheus
 Now that the status is showing running  then we can view in the browser using  the DNS_NAME or public_ip address at port 9090/metrix
 
 ![Status](images/prometheus_web_status.png)
+
+
+###  Thank you for checking this out and stay tuned for more.
