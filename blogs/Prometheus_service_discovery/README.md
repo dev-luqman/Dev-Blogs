@@ -57,4 +57,4 @@ sudo systemctl restart prometheus
 
 ```
 
-### Final - check status again and we should be fine as preview 
+### Final - check status again and we should be fine as previous 
