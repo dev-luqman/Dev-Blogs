@@ -8,12 +8,12 @@ The step is basicaly use to export data on created new instance and configure cr
 2. Configure Prometheus on server [Prometheus_configuration](../Prometheus_setUp/README.md)
 3. Create a new instance to be monitor by following ` prerequisite 1 `
 
-` Ensure that Secury group of port 9100 is part of the ingress rule ` 
+` Ensure that Security group of port 9100 is part of the ingress rule ` 
 
 
 
 ### Steps
-The below steps will be consigured after which the prerequisite have been completed
+The below steps will be configured after which the prerequisite have been completed
 
 
 #### 1.  SSH into your new ec2 instance ` Instance to be monitor `
@@ -36,7 +36,7 @@ sudo useradd --no-create-home node_exporter
 
 
 
-### 4. Install Node Exporter ` new instance ` annd move the binaries to another directories
+### 4. Install Node Exporter ` new instance ` and move the binaries to another directories
 
 ```
 wget https://github.com/prometheus/node_exporter/releases/download/v1.0.1/node_exporter-1.0.1.linux-amd64.tar.gz
@@ -105,7 +105,7 @@ The below steps is use to configure prometheus server to recieved the exported d
 
 
 ### Prometheus Configuration Improvement
-Further installation is required to be configure for the previous  instance [` Prometheus Server `](../Prometheus_setUp/README.md) so that he can collect the  exported  dat and monitor the new created server as well
+Further installation is required to be configure for the previous  instance [` Prometheus Server `](../Prometheus_setUp/README.md) so that he can collect the  exported  data and monitor the new created server as well
 
 
 ### Follow along please
@@ -158,3 +158,4 @@ Now that the status is showing running  then we can view in the browser using  t
 
 ###  Thank you for checking this out and stay tuned for more.
 #### Next - ` Auto discovery of Ec2 Instance `
+[Service Discovery](../Prometheus_service_discovery/README.md) 
