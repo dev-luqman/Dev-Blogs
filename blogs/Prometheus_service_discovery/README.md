@@ -1,16 +1,16 @@
 ## Prometheus Service Discovery of EC2 Instance
-It will actually be fun if we can detect new instances and their exported data and without having to touch the prometheus server again. 
-Yes we will configure prometheus server to auto detect and collect data without having to update update prometheus.yml for any new instance created.
+It will actually be fun if we can detect new instances and their exported data without having to touch the prometheus server again. 
+Yes!!! we will configure prometheus server to auto detect and collect data without having to update the prometheus.yml for any new instance created.
 
 
 ### Prerequisites
 1. Create prometheus server [ec2 instance](../CreateAWSInstance/README.md)
 2. Configure Prometheus on server [Prometheus_configuration](../Prometheus_setUp/README.md)
-3. Create a new instance to be monitor by following ` prerequisite 1 `
+3. Create a new instance to be monitor by following ` prerequisite 1 ` above
 
-` Ensure that Security group of port 9100 is part of the ingress rule ` 
+`Note` : ` Ensure that Security group of port 9100 is part of the ingress rule ` 
 
-4.  Create IAM role programatic access and amin roles ` This step will discuss another time `
+4.  Create IAM role  with programatic access and admin roles ` This step will be discuss another time `
 * we need to collect the ` secret key ` and ` accees key ` in this step
 
 
