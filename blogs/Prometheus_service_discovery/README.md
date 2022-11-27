@@ -1,6 +1,6 @@
 ## Prometheus Service Discovery of EC2 Instance
-It will be actually be fun if we can detect new instance created and have the exported data running and emitting data with out having to touch the prometheus server again. 
-Yes we will configure prometheus server to auto collect data without to change any files again
+It will actually be fun if we can detect new instances and their exported data and without having to touch the prometheus server again. 
+Yes we will configure prometheus server to auto detect and collect data without having to update update prometheus.yml for any new instance created.
 
 
 ### Prerequisites
